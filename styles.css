@@ -19,18 +19,36 @@ h3{
   left: 50%;
   display: grid;
   height:fit-content;
-  width:30em;
-  grid-template-columns: auto auto auto auto;
+  width:40em;
+  grid-template-columns: auto auto auto auto auto;
   border-radius: 10px;
 }
+
 .grid-item{
   border-radius: 10px;
   background-color: rgba(19,19,18,255);
   color: rgba(214,179,172,255);
   text-align: center;
   padding: 1.25em;
-  margin: 2px;
+  margin: 3px; 
 }
+.grid-desc{
+  position: absolute;
+  left: 36%;
+  top: 31.555%;
+  width: 22.75em;
+  height: 6.795em;
+}
+
+.rt{
+  height: 3.5em;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  filter: invert();
+}
+
 #pfp-ico{
   border-radius: 50%;
   padding-top: 1em;
