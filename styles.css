@@ -8,11 +8,12 @@ html{
   position: relative;
   font-family: 'Open Sans', sans-serif;
 }
-h3{
+h3 p{
   color: rgba(212,122,110,255);
+  margin: 0;
 }
 
-.grid-container{
+.grid-container{  
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -35,9 +36,10 @@ h3{
 .grid-desc{
   position: absolute;
   left: 36%;
-  top: 31.555%;
+  top: 40%;
   width: 22.75em;
   height: 6.795em;
+  text-align: left;
 }
 
 .rt{
@@ -45,6 +47,11 @@ h3{
   display: flex;
   align-items: center;
 }
+
+.me{
+  width:258.5%;
+}
+
 .logo{
   filter: invert();
 }
