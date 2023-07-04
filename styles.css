@@ -8,8 +8,10 @@ html{
   position: relative;
   font-family: 'Open Sans', sans-serif;
 }
-h3 p{
+h3{
   color: rgba(212,122,110,255);
+}
+p{
   margin: 0;
 }
 
