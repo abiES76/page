@@ -27,7 +27,6 @@ h3{
   grid-template-columns: auto auto auto auto auto;
   border-radius: 10px;
 }
-
 .grid-item{
   border-radius: 10px;
   background-color: rgba(19,19,18,255);
@@ -35,6 +34,7 @@ h3{
   text-align: center;
   padding: 1.25em;
   margin: 3px; 
+  transition: 0.3s;
 }
 .grid-desc{
   position: absolute;
@@ -44,22 +44,30 @@ h3{
   height: 6.795em;
   text-align: left;
 }
-
 .rt{
   height: 3.5em;
   display: flex;
   align-items: center;
 }
-
 .me{
   width:258.5%;
 }
-
 .logo{
   filter: invert();
 }
-
 #pfp-ico{
   border-radius: 50%;
   padding-top: 1em;
+}
+#github:hover{
+  background-color: rgba(84,38,115,255);
+}
+#twitter:hover{
+  background-color: rgba(28,155,241,255);
+}
+#discord:hover{
+  background-color: rgba(64,78,237,255);
+}
+#telegram:hover{
+  background-color: rgba(39,165,231,255);
 }
