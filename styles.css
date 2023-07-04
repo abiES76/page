@@ -1,11 +1,10 @@
 html{
-  background-image:url(back.png);
+  background-image:url(./sources/back.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
   height: 100%;
   overflow: hidden;
-  position: relative;
   font-family: 'Open Sans', sans-serif;
 }
 h3{
