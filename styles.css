@@ -11,8 +11,9 @@ html{
 h3{
   color: rgba(212,122,110,255);
 }
-p{
-  margin: 0;
+#descripcion{
+  margin-top: -1em;
+  font-size: 0.9em;
 }
 
 .grid-container{  
