@@ -38,10 +38,19 @@ h3{
   position: absolute;
   left: 36%;
   top: 40%;
-  width: 22.75em;
-  height: 6.795em;
+  width: 22.05em;
+  height: 6.07em;
   text-align: left;
+  background-image:url(./sources/bottles221-1.jpg);
+  border: 6px solid #131312;
+  background-size: contain;
+  background-position: center;
+  background-repeat: round;
 }
+#des-img{
+  
+}
+
 .rt{
   height: 3.5em;
   display: flex;
