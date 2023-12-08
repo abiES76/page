@@ -10,10 +10,6 @@ html{
 h3{
   color: rgba(212,122,110,255);
 }
-#descripcion{
-  margin-top: -1em;
-  font-size: 0.9em;
-}
 .grid-container{  
   position: absolute;
   top: 50%;
@@ -23,10 +19,10 @@ h3{
   height:fit-content;
   width:40em;
   grid-template-columns: auto auto auto auto auto;
-  border-radius: 10px;
+  border-radius: 1em;
 }
 .grid-item{
-  border-radius: 10px;
+  border-radius: 1em;
   background-color: rgba(19,19,18,255);
   color: rgba(214,179,172,255);
   text-align: center;
@@ -42,26 +38,28 @@ h3{
   height: 6.07em;
   text-align: left;
   background-image:url(./sources/bottles221-1.jpg);
-  border: 6px solid #131312;
+  border: 0.4em solid #131312;
   background-size: contain;
   background-position: center;
   background-repeat: round;
 }
-
+a{
+  height: 100px;
+  text-decoration: none;
+}
 .rt{
   height: 3.5em;
   display: flex;
   align-items: center;
 }
-.me{
-  width:258.5%;
-}
 .logo{
   filter: invert();
 }
 #pfp-ico{
-  border-radius: 50%;
-  padding-top: 1em;
+  border-radius: 1em;
+  margin-top: 1em;
+  width: 128px;
+  height: 128px;
 }
 #github:hover{
   background-color: rgba(84,38,115,255);
