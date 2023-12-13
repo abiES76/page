@@ -1,20 +1,17 @@
 html{
-  background-image:url(./sources/back.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
+  background: no-repeat center/cover url(./sources/back.png);
   height: 100%;
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
 }
 h3{
-  color: rgba(212,122,110,255);
+  color: rgb(212,122,110);
 }
 .grid-container{  
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%);
   left: 50%;
+  transform: translate(-50%, -50%);
   display: grid;
   width:40em;
   grid-template-columns: auto auto auto auto auto;
@@ -23,11 +20,13 @@ h3{
 .grid-item{
   border-radius: 1em;
   background-color: rgba(19,19,18,255);
-  color: rgba(214,179,172,255);
   text-align: center;
   padding: 1.25em;
-  margin: 3px; 
-  transition: 0.3s;
+  margin: 0.19em; 
+  transition: 0.4s;
+}
+a{
+  height: 6.3em;
 }
 .grid-desc{
   color: red;
@@ -40,39 +39,30 @@ h3{
   top: 40%;
   width: 22.05em;
   height: 6.07em;
-  background-image:url(./sources/bottles221-1.jpg);
   border: 0.4em solid #131312;
-  background-size: contain;
-  background-position: center;
-  background-repeat: round;
-}
-a{
-  height: 100px;
-  text-decoration: none;
+  background: round center/contain url(./sources/bottles221-1.jpg);
 }
 .rt{
   height: 3.5em;
   display: flex;
   align-items: center;
-}
-.logo{
   filter: invert();
+  background: rgb(236, 236, 237);
 }
 #pfp-ico{
   border-radius: 1em;
   margin-top: 1em;
   width: 128px;
-  height: 128px;
 }
 #github:hover{
-  background-color: rgba(84,38,115,255);
+  background: rgb(171, 217, 139);
 }
 #steam:hover{
-  background-color: rgba(18,108,158,255);
+  background: rgb(237, 147, 96);
 }
 #discord:hover{
-  background-color: rgba(64,78,237,255);
+  background: rgb(191, 177, 17);
 }
 #telegram:hover{
-  background-color: rgba(39,165,231,255);
+  background: rgb(216, 89, 23);
 }
