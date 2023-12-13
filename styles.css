@@ -16,7 +16,6 @@ h3{
   transform: translate(-50%, -50%);
   left: 50%;
   display: grid;
-  height:fit-content;
   width:40em;
   grid-template-columns: auto auto auto auto auto;
   border-radius: 1em;
@@ -31,12 +30,16 @@ h3{
   transition: 0.3s;
 }
 .grid-desc{
+  color: red;
+  font-weight: bolder;
+  align-content: center;
+  text-transform: full-width;
+  display: grid;
   position: absolute;
   left: 36%;
   top: 40%;
   width: 22.05em;
   height: 6.07em;
-  text-align: left;
   background-image:url(./sources/bottles221-1.jpg);
   border: 0.4em solid #131312;
   background-size: contain;
