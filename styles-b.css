@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+.background{
+    background: repeat center/25% url(sources/seamless2.jpg);
+    height: 100vh;
+    width: 100vw;
+    filter: invert(25%);
+    z-index: -1;
+    position: fixed;
+}
+.main-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+.center-container{
+    margin: auto;
+}
+.box{
+    border: 0.1em black solid;
+    border-radius: 0.35em;
+    text-align: center;
+    margin: 0.2em;
+}
+.profile-in-box{
+    display: inline-flex;
+}
+.text-0dot2em{
+    margin: 0.2em
+}
+.invert-colors{
+    filter:invert(75%);
+}

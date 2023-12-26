@@ -1,42 +1,42 @@
-<html lang="en"><head>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="og:url" content="https://es-abii76.github.io/PPage/">
     <meta property="og:title" content="Abigail's Page">
     <meta property="og:description" content="Yes this is my web page it is">
-    <meta property="og:site_name" content="Abigail's Place">
+    <meta property="og:site_name" content="under construction">
     <link rel="shortcut icon" href="otter.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet">
     <title>Abigail's Page</title>
     <link rel="stylesheet" href="styles-b.css">
-    <style>
-        body{
-            margin: 0;
-            margin-top: -1.4em;
-        }
-        .content{
-            background: repeat center/25% url(sources/seamless2.jpg);
-            height: 100vh;
-            width: 100vw;
-        }
-        .invert-colors{
-            filter:invert(100%);
-        }
-    </style>
 </head>
-    <body>
-        <div class="content">
-            <h1>beep boop under maintanance</h1>
-            <h2><a href="./index.html">GO BACK</a></h2>
-            <button onclick="invert()">Invert colors XD</button>
+    <body>  
+        <div class="background"></div>  <!--do not do this ever again, this is dumb af-->
+        <div class="main-container">
+            <div class="center-container">
+                <div class="box">
+                    <div class="profile-in-box">
+                        <h1 class="text-0dot2em">abii</h1> 
+                        <button class="text-0dot2em" onclick="invert()">IC</button>
+                    </div>
+                </div>
+                <div class="box">
+                        <h1 class="text-0dot2em">b</h1>
+                </div>
+                <div class="box">
+                        <h1 class="text-0dot2em">c</h1>
+                </div>
+                <div class="box">
+                        <h1 class="text-0dot2em">beep boop under maintanance</h1>
+                        <h2 class="text-0dot2em"><a href="./index.html">GO BACK</a></h2>
+                </div>
+            </div>
         </div>
         <script>
             function invert() {
                 var element = document.body;
                 element.classList.toggle("invert-colors");
             }
-        </script>    
-    
-</body></html>
+        </script>
+    </body>
+</html>
