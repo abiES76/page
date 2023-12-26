@@ -1,11 +1,13 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6512d;
 }
 .background{
     background: repeat center/25% url(sources/seamless2.jpg);
     height: 100vh;
     width: 100vw;
-    filter: invert(25%);
+    filter: opacity(45%);
     z-index: -1;
     position: fixed;
 }
@@ -18,17 +20,26 @@ body{
     margin: auto;
 }
 .box{
-    border: 0.1em black solid;
-    border-radius: 0.35em;
+    color: rgb(221, 169, 160);
+    border-radius: 1em;
     text-align: center;
-    margin: 0.2em;
+    background-color: #131312 ;
 }
 .profile-in-box{
+    font-family: 'Nunito', sans-serif;
     display: inline-flex;
+    align-items: center;
+    margin: 0.5em;
+}
+img{
+    border-radius: 2em;
 }
 .text-0dot2em{
     margin: 0.2em
 }
 .invert-colors{
     filter:invert(75%);
+}
+.DONOT{
+    filter:invert(0%);
 }
